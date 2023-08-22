@@ -29,9 +29,15 @@
 
 # ---------------------------------------------------------------------------- #
 
-in fmod.config.floco.packages."@npmcli/arborist"."6.1.5".global
-
-
+# in fmod.config.floco.packages."@npmcli/arborist"."6.1.5".global
+# in
+in {
+  inherit fmod;
+  pkg = fmod.config.floco.packages."@npmcli/arborist"."6.1.5";
+  hook = lib.libfloco.rsyncShellHook {
+    nmDir = fmod.config.floco.packages."@npmcli/arborist"."6.1.5".global;
+  };
+}
 # ---------------------------------------------------------------------------- #
 #
 #

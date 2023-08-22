@@ -197,6 +197,9 @@ fi
 do_copy() {
   ${MKDIR:-mkdir} -p "$TO";
   ${CHMOD:-chmod} 0755 "$TO";
+  
+  echo "COPYING from: '$FROM' to: '$TO'"
+
   if [[ -z "$NO_PERMS" ]]; then
     ${CP:-cp}                       \
       -r                            \

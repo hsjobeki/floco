@@ -60,6 +60,7 @@ in {
     ./graph
     ./update-pdef.nix
     ./pdef-filters.nix
+    ./shellHook.nix
   ] ) // ( import ./url-code.nix );
   libdoc = callLib ./mdoc.nix;
 

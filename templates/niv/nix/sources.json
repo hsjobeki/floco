@@ -1,0 +1,14 @@
+{
+    "floco": {
+        "branch": "main",
+        "description": "Using Nix to put NPM and Yarn in a coffin",
+        "homepage": null,
+        "owner": "aakropotkin",
+        "repo": "floco",
+        "rev": "5d0947d17964b0871c4af01272495389f572d677",
+        "sha256": "17csxnf6yz6jc63cryfyn0lp47r4kw51fqdjg443z3w5lns440if",
+        "type": "tarball",
+        "url": "https://github.com/aakropotkin/floco/archive/5d0947d17964b0871c4af01272495389f572d677.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
